@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href = "{{ url_for('static', filename='back.css') }}">
+        <title> 
+            Hello
+        </title>    
+    </head>
+    <body >
+        <h1>Header </h1>
+        <p>Paragraph in this wordl. Hello Darkness my old friend.</p>
+        <div>
+            <form action="/submit" method="POST">
+                <p class="wird">Name</p>
+                <input type="text" name="username" />
+                <p class="wird">Password</p>
+                <input type="password" name="password" />
+                <button href="https://google.com">Login</button>
+            </form>
+        </div>  
+    </body>
+</html>

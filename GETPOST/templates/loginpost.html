@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href = "{{ url_for('static', filename='index.css') }}">
+        <title>Login POST</title>
+    </head>
+<body>
+    <h2>Login Form (POST Method)</h2>
+    <form action="/login" method="POST">
+        Username: <input type="text" name="username"><br><br>
+        Password: <input type="password" name="password"><br><br>
+        <button type="submit">Submit (POST)</button>
+    </form>
+</body>
+</html>
